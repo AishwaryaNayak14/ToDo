@@ -15,12 +15,13 @@ public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
 public slots:
-    void personal();
-    void business();
+    void AddTask();
     void getinput(QString);
 
 private:
     Ui::MainWindow *ui;
     QString input;
+
+
 };
 #endif // MAINWINDOW_H
